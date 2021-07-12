@@ -8,6 +8,9 @@ abstract class Dwelling(private var residents:Int){
         return residents<capacity
     }
 }
-class SquareCabin{
+class SquareCabin(residents: Int):Dwelling(residents){
+    override val buildingMaterial: String ="Wood"
+    override val capacity: Int=6
+
 
 }
