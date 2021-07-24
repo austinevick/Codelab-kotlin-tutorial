@@ -1,7 +1,6 @@
-package kotlinCodelab
+package kotlinCodelab.oopInKotlin
 
 import kotlin.math.PI
-import kotlin.math.floor
 import kotlin.math.sqrt
 
 abstract class Dwelling(private var residents: Int) {
