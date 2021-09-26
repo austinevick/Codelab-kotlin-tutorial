@@ -1,14 +1,30 @@
 package kotlinCodelab
 
-import kotlinCodelab.listInKotlin.Noodles
-import kotlinCodelab.listInKotlin.Order
-import kotlinCodelab.listInKotlin.Vegetables
-import kotlinCodelab.oopInKotlin.RoundHut
-import kotlinCodelab.oopInKotlin.RoundTower
-import kotlinCodelab.oopInKotlin.SquareCabin
-import kotlin.math.roundToInt
-
 fun main(args: Array<String>) {
+//    val numbers = listOf(0, 3, 8, 4, 0, 5, 5, 8, 9, 2)
+//    val set1 = setOf(1,2,3)
+//    val set2 = mutableSetOf(3,2,1)
+//    val setOfNumbers = numbers.toSet()
+//    println("$set1 == $set2: ${set1 == set2}")
+//    println("contains 7: ${setOfNumbers.contains(7)}")
+//    println("set:    $setOfNumbers")
+//    println("list:   $numbers")
+//    println("sorted: ${numbers.sorted()}")
+
+    val words = listOf("about", "acute", "awesome", "balloon", "best", "brief", "class", "coffee", "creative")
+    val filteredWords = words.filter { it.startsWith("b",true) }
+        .shuffled().take(2)
+     val list = ('A').rangeTo('Z').toList()
+
+    println(list)
+//    val peopleAges = mutableMapOf<String,Int>("Fred" to 30,"Ann" to 23)
+//    peopleAges["Barbara"] = 42
+//    peopleAges["Joe"]=51
+//    peopleAges["Fred"]=31
+//    println(peopleAges)
+//    println(peopleAges.map { "${it.key} is ${it.value}" }.joinToString(","))
+//    val filteredNames = peopleAges.filter { it.key.length < 4 }
+//    println(filteredNames)
 
 //    // KOTLIN LIST
 //    println("LIST IN KOTLIN")

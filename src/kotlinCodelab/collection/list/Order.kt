@@ -1,4 +1,4 @@
-package kotlinCodelab.listInKotlin
+package kotlinCodelab.collection.list
 
 class Order(private val orderNumber: Int) {
     private val itemList = mutableListOf<Item>()

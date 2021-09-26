@@ -1,4 +1,4 @@
-package kotlinCodelab.oopInKotlin
+package kotlinCodelab.oop
 
 import kotlin.math.PI
 import kotlin.math.sqrt
